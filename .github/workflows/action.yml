@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: activity, community, repositories, metadata
-          config_timezone: Moscow
+          config_timezone: Russia/Stavropol
           config_twemoji: yes
           repositories: 500
           plugin_achievements: no
