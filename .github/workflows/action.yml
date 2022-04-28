@@ -15,7 +15,7 @@ jobs:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
         
-          user: flam3rboy
+          user: SNIPPIK
           template: classic
           base: activity, community, repositories, metadata
           config_timezone: Europe/Berlin
