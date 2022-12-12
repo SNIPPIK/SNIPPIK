@@ -5,3 +5,7 @@
 <p align="center">    
     <img src="./github-metrics.svg">
 </p>
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/SNIPPIK/count.svg" />
+</p>
