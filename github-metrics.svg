@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="964" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="991" class="">
     <defs>
         <style/>
     </defs>
@@ -640,7 +640,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 20 Dec 2022, 17:06:06
+                            On 20 Dec 2022, 17:05:47
                         </div>
                     </section>
                 </div>
@@ -656,17 +656,16 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">abeeac23</span>
-                            <span class="code">run.bat</span>
-                            <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--2</span></span>
+                            <span class="code">79b6ae62</span>
+                            <span class="code">src/AudioPlayer/Controller.ts</span>
+                            <span class="code"><span class="snippet additions">++6</span> <span class="snippet deletions">--6</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -23,14 +23,14 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">:Client<br /></span><span class="token prefix unchanged">·</span><span class="token line"> echo running Client...<br /></span><span class="token prefix unchanged">·</span><span class="token line"> cd build<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> node ./src/Core/Client/Client.js<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> node -r tsconfig-paths/register src/Core/Client/Client.js<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"> goto menu<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">:: Запускаем ShardManager<br /></span><span class="token prefix unchanged">·</span><span class="token line">:ShardManager<br /></span><span class="token prefix unchanged">·</span><span class="token line"> echo running ShardManager...<br /></span><span class="token prefix unchanged">·</span><span class="token line"> cd build<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> node ./src/Core/Client/ShardManager.js<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> node -r tsconfig-paths/register src/Core/Client/ShardManager.js<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"> goto menu<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">:: Запускаем билдер из typescript в javascript
-</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,10 +1,10 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import {Queue} from "./Structures/Queue/Queue";<br /></span><span class="token prefix deleted">-</span><span class="token line">import {Song} from "./Structures/Queue/Song";<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import {ClientMessage, messageUtils} from "@Client/interactionCreate";<br /></span><span class="token prefix inserted">+</span><span class="token line">import {StatusPlayerHasSkipped} from "@Structures/AudioPlayer";<br /></span><span class="token prefix inserted">+</span><span class="token line">import {DurationUtils} from "@Managers/DurationUtils";<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import {VoiceState} from "discord.js";<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import {StatusPlayerHasSkipped} from "./Structures/AudioPlayer";<br /></span><span class="token prefix deleted">-</span><span class="token line">import {DurationUtils} from "./Managers/DurationUtils";<br /></span><span class="token prefix deleted">-</span><span class="token line">import {ClientMessage, messageUtils} from "../Handler/Events/Activity/interactionCreate";<br /></span><span class="token prefix deleted">-</span><span class="token line">import {Voice} from "./Structures/Voice/Voice";<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import {Voice} from "@VoiceManager";<br /></span><span class="token prefix inserted">+</span><span class="token line">import {Queue} from "@Queue/Queue";<br /></span><span class="token prefix inserted">+</span><span class="token line">import {Song} from "@Queue/Song";<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">const ParsingTimeToString = DurationUtils.ParsingTimeToString;<br /></span><span class="token prefix unchanged">·</span><span class="token line"></span></span></code>
                         </div>
                     </section>
                 </div>
@@ -681,14 +680,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #FD4D32">Your fortune: Excellent Luck</b>
+                            <b style="color: #7FEC11">Your fortune: Bad Luck</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 22 Dec 2022, 19:12:33 (timezone Europe/Moscow) with lowlighter/metrics@3.31.0</span>
+                <span>Last updated 22 Dec 2022, 20:08:52 (timezone Europe/Moscow) with lowlighter/metrics@3.31.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
