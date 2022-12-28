@@ -657,7 +657,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">47e41436</span>
-                            <span class="code">src/Structures/ReactionMenu.ts</span>
+                            <span class="code">src/AudioPlayer/Structures/EmbedMessages.ts</span>
                             <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--2</span></span>
                         </div>
                     </section>
@@ -665,8 +665,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,4 +1,4 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import {ClientMessage, EmbedConstructor, ClientInteractive, messageUtils} from "@Client/interactionCreate";<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import {ClientMessage, EmbedConstructor, ClientInteractive, UtilsMsg} from "@Client/interactionCreate";<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import {ReactionMenuSettings} from "@db/Config.json";<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {MessageReaction, User} from "discord.js";<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span>@@ -28,7 +28,7 @@ export class ReactionMenu {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">              const emoji = emojis[key];<br /></span><span class="token prefix unchanged">·</span><span class="token line">              const callback = (reaction: MessageReaction) =&gt; value(reaction, message.author, message, msg);<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">              return messageUtils.createReaction(msg, emoji, (reaction, user) =&gt; reaction.emoji.name === emoji &amp;&amp; user.id !== message.client.user.id, callback, 60e3);<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">              return UtilsMsg.createReaction(msg, emoji, (reaction, user) =&gt; reaction.emoji.name === emoji &amp;&amp; user.id !== message.client.user.id, callback, 60e3);<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">          });<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">          if (isSlash) message.reply(args).then(promise);
-</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -105,10 +105,10 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    const {songs, song, player} = queue;<br /></span><span class="token prefix unchanged">·</span><span class="token line">    const VisualDuration = playTime.toString(song.duration, player.streamDuration);<br /></span><span class="token prefix unchanged">·</span><span class="token line">    //Текущий трек<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    const fields = [{ name: "**Щас играет**", value: `**❯** **[${replacer.replaceText(song.title, 29, true)}](${song.url})**\n${VisualDuration}` }];<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    const fields = [{ name: `**Щас играет**`, value: `**❯** **[${replacer.replaceText(song.title, 29, true)}](${song.url})**\n${VisualDuration}` }];<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">    //Следующий трек<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    if (songs.length &gt; 1) fields.push({ name: "**Потом**", value: `**❯** **[${replacer.replaceText(songs[1].title, 29, true)}](${songs[1].url})**` });<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    if (songs.length &gt; 1) fields.push({ name: `**Потом**`, value: `**❯** **[${replacer.replaceText(songs[1].title, 29, true)}](${songs[1].url})**` });<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    return fields;<br /></span><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line">}</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -681,14 +680,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #7FEC11">Your fortune: Bad Luck</b>
+                            <b style="color: #2A56FB">Your fortune: Better not tell you now</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 28 Dec 2022, 07:11:29 (timezone Europe/Moscow) with lowlighter/metrics@3.31.0</span>
+                <span>Last updated 28 Dec 2022, 08:09:13 (timezone Europe/Moscow) with lowlighter/metrics@3.31.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
