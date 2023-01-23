@@ -657,7 +657,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">e4dc1206</span>
-                            <span class="code">src/Handler/Commands/music/shuffle.ts</span>
+                            <span class="code">src/Handler/Commands/music/leave.ts</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
@@ -665,8 +665,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -4,7 +4,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import {Queue} from "@Queue/Queue";<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {Song} from "@Queue/Song";<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">export class Shuffle extends Command {<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">export class Command_Shuffle extends Command {<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  public constructor() {<br /></span><span class="token prefix unchanged">·</span><span class="token line">      super({<br /></span><span class="token prefix unchanged">·</span><span class="token line">          name: "shuffle",
-</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -3,7 +3,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import { Voice } from "@VoiceManager";<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {Queue} from "@Queue/Queue";<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">export class Leave extends Command {<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">export class Command_Leave extends Command {<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   public constructor() {<br /></span><span class="token prefix unchanged">·</span><span class="token line">       super({<br /></span><span class="token prefix unchanged">·</span><span class="token line">           name: "leave",</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -681,14 +680,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #43FD3B">Your fortune: Good news will come to you by mail</b>
+                            <b style="color: #7FEC11">Your fortune: Bad Luck</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 23 Jan 2023, 12:10:12 (timezone Europe/Moscow) with lowlighter/metrics@3.32.0</span>
+                <span>Last updated 23 Jan 2023, 13:10:28 (timezone Europe/Moscow) with lowlighter/metrics@3.32.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
