@@ -3,12 +3,10 @@
 </p>
 <h1 align="center">SNIPPIK</h1>
 
-<details align="center">
-  <summary>Show my statistics</summary>
 <p align="center">    
     <img src="./github-metrics.svg">
 </p>
-</details>
+
 <p align="center"> 
   Visitor count<br>
   <img src="https://profile-counter.glitch.me/SNIPPIK/count.svg" />
