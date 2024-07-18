@@ -19,7 +19,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            954 Commits
+                            955 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -169,10 +169,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="300.04160665706513" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="300.04160665706513" y="0" width="85.51680996232123" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="385.5584166193864" y="0" width="73.79915331907651" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="459.35756993846286" y="0" width="0.6424300615371187" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="299.79736899483976" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="299.79736899483976" y="0" width="85.82164401482666" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="385.6190130096664" y="0" width="73.7390798749909" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="459.35809288465725" y="0" width="0.6419071153426849" height="8" fill="#C1F12E"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -3177,14 +3177,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #7FEC11">Your fortune: Bad Luck</b>
+                            <b style="color: #BAC200">Your fortune: Average Luck</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 18 Jul 2024, 21:14:33 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 18 Jul 2024, 22:09:25 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
