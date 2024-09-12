@@ -169,11 +169,11 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="234.83433151914014" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="234.83433151914014" y="0" width="183.191310090406" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="418.02564160954614" y="0" width="32.15380411267734" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="450.1794457222235" y="0" width="9.317741898754354" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="459.49718762097785" y="0" width="0.5028123790221575" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="234.8316576906874" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="234.8316576906874" y="0" width="183.18922427044075" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="418.02088196112817" y="0" width="32.15867557812518" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="450.1795575392533" y="0" width="9.317635806756464" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="459.49719334600974" y="0" width="0.5028066539902307" height="8" fill="#C1F12E"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -3184,14 +3184,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #BAC200">Your fortune: Average Luck</b>
+                            <b style="color: #43FD3B">Your fortune: Good news will come to you by mail</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 12 Sept 2024, 21:15:35 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 12 Sept 2024, 22:08:51 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
