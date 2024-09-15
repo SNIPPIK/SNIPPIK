@@ -169,12 +169,12 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="211.17441074683103" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="211.17441074683103" y="0" width="164.7345033071898" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="375.90891405402084" y="0" width="46.340998914668354" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="422.2499129686892" y="0" width="28.91896873016198" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="451.1688816988512" y="0" width="8.378965044129995" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="459.54784674298116" y="0" width="0.45215325701881925" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="209.76759796991487" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="209.76759796991487" y="0" width="166.7015184955401" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="376.469116465455" y="0" width="46.03228201503239" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="422.5013984804874" y="0" width="28.726314825927318" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="451.2277133064147" y="0" width="8.323145614873729" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="459.5508589212884" y="0" width="0.44914107871156717" height="8" fill="#C1F12E"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -3261,14 +3261,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #E7890C">Your fortune: Good Luck</b>
+                            <b style="color: #00CBB0">Your fortune: ｷﾀ━━━━━━(ﾟ∀ﾟ)━━━━━━ !!!!</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 15 Sept 2024, 14:08:36 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 15 Sept 2024, 15:18:55 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
