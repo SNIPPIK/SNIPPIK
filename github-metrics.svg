@@ -3235,10 +3235,10 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">18472373</span>
-                            <span class="code">dotfiles/Files/Configs/waybar/configuring/groups/workspace.jsonc</span>
+                            <span class="code">dotfiles/Files/Configs/waybar/configuring/groups/audio.jsonc</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--2</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -3246,7 +3246,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -8,8 +8,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   },<br /></span><span class="token prefix unchanged">·</span><span class="token line">   "modules": [<br /></span><span class="token prefix unchanged">·</span><span class="token line">     "hyprland/workspaces",<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">     "wlr/taskbar",<br /></span><span class="token prefix deleted">-</span><span class="token line">     "tray"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">     "wlr/taskbar"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   ]<br /></span><span class="token prefix unchanged">·</span><span class="token line"> }<br /></span><span class="token prefix unchanged">·</span><span class="token line">}<br /></span></span>\No newline at end of file</code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -6,7 +6,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"format-icons": {<br /></span><span class="token prefix unchanged">·</span><span class="token line">  "headphone": " ",<br /></span><span class="token prefix unchanged">·</span><span class="token line">  "car": " ",<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  "default": ["", "", "", ""]<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  "default": ["", "", "", "", "󰕾"]<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">},<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">"tooltip-format": "{desc} // {volume}%\n\n󰎟 Binds\n 󰳽 click-left: Toggle Mute\n 󰳽 click-right: Open settings\n 󰳽 scroll: Volume control",</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -3261,14 +3261,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #7FEC11">Your fortune: Bad Luck</b>
+                            <b style="color: #BAC200">Your fortune: Average Luck</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 12 Oct 2024, 22:08:31 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 12 Oct 2024, 23:11:46 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
