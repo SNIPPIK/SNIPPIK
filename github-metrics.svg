@@ -19,7 +19,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            2819 Commits
+                            2820 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -169,12 +169,12 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="425.6232114873612" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="425.6232114873612" y="0" width="22.828404987395245" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="448.4516164747564" y="0" width="5.776150609797643" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="454.2277670845541" y="0" width="4.818274340805342" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="459.0460414253595" y="0" width="0.906946242420113" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="459.95298766777955" y="0" width="0.047012332220481026" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="425.6288831197584" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="425.6288831197584" y="0" width="22.824638657644684" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="448.4535217774031" y="0" width="5.775197635295157" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="454.22871941269824" y="0" width="4.81747940090454" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="459.0461988136028" y="0" width="0.9067966104761874" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="459.952995424079" y="0" width="0.04700457592101188" height="8" fill="#C1F12E"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -3245,10 +3245,10 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">b5d03052</span>
-                            <span class="code">src/utils/discord/MessageUtils.ts</span>
+                            <span class="code">src/services/voice/sockets/VoiceSocket.ts</span>
                             <span class="code">
-                                <span class="snippet additions">++2</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++1</span>
+                                <span class="snippet deletions">--6</span>
                             </span>
                         </div>
                     </section>
@@ -3256,7 +3256,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,8 +1,9 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import {MessageSendOptions, ds_interact, MessageComponent, interact, SupportButtons} from "@type/discord";<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import {MessageSendOptions, ds_interact, MessageComponent, interact} from "@type/discord";<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import {CommandInteractionOption, GuildTextBasedChannel, User} from "discord.js"<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {Attachment, InteractionCallbackResponse} from "discord.js";<br /></span><span class="token prefix unchanged">·</span><span class="token line">import type {Message, EmbedData, GuildMember} from "discord.js"<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {locale, languages} from "@service/locale";<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import {SupportButtons} from "@handler/modals";<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import {EmbedBuilder} from "./EmbedBuilder";<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {env} from "@handler";<br /></span><span class="token prefix unchanged">·</span><span class="token line">import {db} from "@app";</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -353,12 +353,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    */<br /></span><span class="token prefix unchanged">·</span><span class="token line">   public destroy = () =&gt; {<br /></span><span class="token prefix unchanged">·</span><span class="token line">       this.removeAllListeners();<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"><br /></span><span class="token prefix deleted">-</span><span class="token line">       // Удаляем данные в следующем цикле<br /></span><span class="token prefix deleted">-</span><span class="token line">       setImmediate(() =&gt; {<br /></span><span class="token prefix deleted">-</span><span class="token line">           this.state = { code: VoiceSocketStatusCode.close };<br /></span><span class="token prefix deleted">-</span><span class="token line">           for (let key of Object.keys(this)) this[key] = null;<br /></span><span class="token prefix deleted">-</span><span class="token line">       });<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">       this.state = { code: VoiceSocketStatusCode.close };<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   };<br /></span><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -3271,14 +3271,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #43FD3B">Your fortune: Good news will come to you by mail</b>
+                            <b style="color: #E7890C">Your fortune: Good Luck</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 23 Mar 2025, 12:11:31 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 23 Mar 2025, 13:11:53 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
