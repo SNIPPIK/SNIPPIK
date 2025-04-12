@@ -2296,7 +2296,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">5148d9b8</span>
-                            <span class="code">src/services/voice/audio/process.ts</span>
+                            <span class="code">README.md</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -2307,7 +2307,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -110,7 +110,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">// Проверяем имена, если есть FFmpeg/avconv<br /></span><span class="token prefix unchanged">·</span><span class="token line">for (const name of ["ffmpeg", ...names]) {<br /></span><span class="token prefix unchanged">·</span><span class="token line">    try {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">        const result = spawnSync(name, ['-h'], {windowsHide: true});<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">        const result = spawnSync(name, ['-h'], { windowsHide: true });<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">        if (result.error) continue;<br /></span><span class="token prefix unchanged">·</span><span class="token line">        ffmpeg_path = name;<br /></span><span class="token prefix unchanged">·</span><span class="token line">        return;</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -55,4 +55,4 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">## Диаграмма всего проекта<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">[&lt;img align="center" alt="Diagram" width="" src=".prev/diagram.png" /&gt;]()<br /></span></span>\No newline at end of file<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">[&lt;img align="center" alt="Diagram" width="" src=".github/images/src.png" /&gt;]()<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
@@ -2322,14 +2322,14 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #00CBB0">Your fortune: ｷﾀ━━━━━━(ﾟ∀ﾟ)━━━━━━ !!!!</b>
+                            <b style="color: #7FEC11">Your fortune: Bad Luck</b>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 12 Apr 2025, 06:26:30 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 12 Apr 2025, 07:14:34 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
