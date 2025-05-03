@@ -25,7 +25,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: SNIPPIK
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Moscow
