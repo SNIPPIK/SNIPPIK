@@ -177,7 +177,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    21.6k added, 21.6k removed
+                                    348k added, 328k removed
                                 </div>
                             </section>
                             <section>
@@ -1369,8 +1369,10 @@
                                 <div class="details">
                                     <div>on branch <span class="code">beta</span></div>
                                     <div class="commit">
-                                        <div class="sha">#beec469</div>
-                                        <div class="message">Исправлен README.md</div>
+                                        <div class="sha">#e1e47b0</div>
+                                        <div class="message">Обновление AudioPlayer
+- Добавление silent frame в функцию stop
+- Убраны debug логи голосового подключения</div>
                                     </div>
                                 </div>
                             </section>
@@ -1389,9 +1391,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">beta</span></div>
                                     <div class="commit">
-                                        <div class="sha">#5762d25</div>
-                                        <div class="message">Удалена поддержка bun :D
-- Слишком требователен к процессору</div>
+                                        <div class="sha">#5aa77d8</div>
+                                        <div class="message">Обновлен README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1410,8 +1411,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">beta</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3925663</div>
-                                        <div class="message">Возвращен tsconfig-paths</div>
+                                        <div class="sha">#6bbe8be</div>
+                                        <div class="message">Обновлен README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1430,8 +1431,9 @@
                                 <div class="details">
                                     <div>on branch <span class="code">beta</span></div>
                                     <div class="commit">
-                                        <div class="sha">#4875c44</div>
-                                        <div class="message">Добавление поддержки Bun</div>
+                                        <div class="sha">#c33b3ca</div>
+                                        <div class="message">Обновлен README.md
+- Надеюсь последний раз)</div>
                                     </div>
                                 </div>
                             </section>
@@ -1450,12 +1452,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">beta</span></div>
                                     <div class="commit">
-                                        <div class="sha">#53c8cdf</div>
-                                        <div class="message">Обновление voice
-- Увеличен интервал отправки пустышки для UDP
-
-TypedEmitter
-- Добавление логов ошибки, для удобства</div>
+                                        <div class="sha">#3108f81</div>
+                                        <div class="message">Обновлен README.md</div>
                                     </div>
                                 </div>
                             </section>
@@ -1483,7 +1481,7 @@ TypedEmitter
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 26 May 2025, 23:14:14 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 27 May 2025, 00:11:40 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
