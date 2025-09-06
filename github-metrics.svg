@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1612" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1363" class="">
     <defs>
         <style/>
     </defs>
@@ -177,7 +177,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    68.5k added, 53.6k removed
+                                    189k added, 151k removed
                                 </div>
                             </section>
                             <section>
@@ -1351,6 +1351,30 @@
                                 <div class="details">
                                     <div>on branch <span class="code">beta</span></div>
                                     <div class="commit">
+                                        <div class="sha">#56064d9</div>
+                                        <div class="message">Рефакторинг и улучшение
+- Немного переработана загрузка трека в плеере, теперь обработка в модуле audio
+- Немного улучшен цикл
+- Изменены описания фильтров
+- Добавление функции toZero для трансформации в формат 00:05</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">SNIPPIK/UnTitles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">beta</span></div>
+                                    <div class="commit">
                                         <div class="sha">#fb6ba54</div>
                                         <div class="message">Немного улучшений
 - Исправление точности поиска трека при отсутствии аудио
@@ -1519,130 +1543,6 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 16 commits in
-                                        <span class="repo">SNIPPIK/UnTitles</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#893c6bb</div>
-                                        <div class="message">Обновление 0.3.1
-- Все изменения смотреть в release note</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2a590a4</div>
-                                        <div class="message">Обновление logger
-- Добавлена поддержка сохранения логов в файлы
-- Добавление ms в текстовый лог</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#50d6fa4</div>
-                                        <div class="message">Улучшения
-- Теперь класс ControllerFilters наследует напрямую SetArray
-- Переименование функций в классе ControllerFilters
-- Исправление отсутствия ответа в request_worker
-- Добавлен timeout в httpsClient в размере 3 сек</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c98a929</div>
-                                        <div class="message">Немного рефакторинг'а
-- Исправление remove опять
-- Отключен highWaterMark для BufferedAudioResource
-- Немного улучшен yandex module а именно getAudio
-- Улучшен цикл, чуть точнее</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b8498f2</div>
-                                        <div class="message">Yandex module
-- Добавлен bypass ad в изображения</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b612c77</div>
-                                        <div class="message">Yandex module
-- Добавлена поддержка lossless, flac, mp3 форматов
-- Добавлен bypass ad треков
-- Добавлена поддержка user-agent</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#40baef9</div>
-                                        <div class="message">Исправление ошибки удаления при отключении от голосового канала
-- Ошибка была связана с новым TypedEmitter</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#231abc0</div>
-                                        <div class="message">Улучшение
-- Добавление глобального callback при Connection Timeout от платформ, при возникновении они будут выключены</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0571c9d</div>
-                                        <div class="message">Исправления
-- Исправление отправки команд, djs не поддерживает отправку через rest, поддерживается только en-US</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0f3b015</div>
-                                        <div class="message">Улучшение системы команд
-- Добавление поддержки ApplicationCommandType.User
-- Добавление PlayContextCommand, AvatarContextCommand</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1b0f312</div>
-                                        <div class="message">Улучшения и исправления
-- Обновлен `TypedEmitter`, теперь реализован на `object` а не `EventEmitter`
-- Добавление поддержки удаления битых аудио файлов
-- Исправления удаления в связи с изменением `TypedEmitter`
-- `Collection` больше не `abstract`
-- Изменение логики добавления треков в очередь
-- Добавление своего _deferred, для правильной работы сообщений
-- Немного изменен README</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ba093bb</div>
-                                        <div class="message">Исправления
-- Улучшена точность `related` в `youtube`
-- Добавлена поддержка получения времени видео в `related`
-- Добавлена поддержка в &lt;STRING&gt;.duration получения не стандартных форматов по типу (1 minute 33 seconds)
-- Исправлена проблема с отправкой пакета через ws когда нет ws</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0629e4a</div>
-                                        <div class="message">Исправление команды /remove
-- Теперь правильно определяется позиция удаленного трека</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#691e56e</div>
-                                        <div class="message">Исправление адаптера из-за новой версии `discord-api-types`</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f1892a5</div>
-                                        <div class="message">Улучшения и добавление нового функционала
-- Перенос фрагментов аудио из плеера в модуль аудио
-- Изменение создания очереди
-- Переименование `allowWave` в `allowRelated`
-- Разделение `db.api.fetch` на 3 функции
-- Добавление нового перевода `player.button.repeat.related`
-- Исправление утечки памяти с `QueueButtons`
-- Улучшение плеера, добавление `AudioPlayerTimeout`, `autoplay`
-- Улучшение autocomplete для команд `queue`, `skip`
-- Добавление нового типа `AutoPlay`
-- Уменьшение и улучшение `rest/request`
-- Изменено удаление буфера в классе `AudioBuffer`
-- Добавление нового типа запроса для yandex, `related`</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3750f0c</div>
-                                        <div class="message">Исправление инициализации dave v1</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -1666,7 +1566,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 6 Sept 2025, 18:10:48 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 6 Sept 2025, 19:13:39 (timezone Europe/Moscow) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
