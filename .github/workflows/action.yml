@@ -25,15 +25,17 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
+          user: SNIPPIK
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_timezone: Europe/Moscow
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
+          config_twemoji: yes
+          plugin_code: yes
+          plugin_code_days: 3
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
@@ -52,5 +54,10 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_repositories: yes
-          plugin_repositories_order: featured, pinned, starred, random
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: classic
+          plugin_stargazers_days: 14
+          plugin_stock: yes
+          plugin_stock_duration: 1d
+          plugin_stock_interval: 5m
